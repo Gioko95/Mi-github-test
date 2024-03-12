@@ -81,13 +81,15 @@ console.log(undefined);
 console.log(null);
  */
 
-const perfil = "Estudiante"
- switch (perfil){
-  case "Estudiante"
-    console.log("Eres un estudiante")
-    break;
-  default;
-     console.log("perfil no permitido")
-     break;
- }
-  
+
+/* const perfil ="Eres un estudiante"
+
+switch (perfil){
+  case "estudiante"
+    console.log ("eres")
+    break
+} */
+
+
+
+ 
