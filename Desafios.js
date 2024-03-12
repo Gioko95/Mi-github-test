@@ -29,4 +29,28 @@
  const num2 = Number(prompt("Ingrese numero 2"));
  document.write(`La suma de ${num1} y ${num2} es ${num1 + num2}`); */
 
- 
+ /* Hacer un programa que reciba del usuario un numero y muestre si el numero
+  ingresado es cero, de otra manera muestre is es positivo o si es negativo */
+
+  /* const numero1 = Number(prompt("Ingresa primer numero:"));
+  console.log(numero1);
+  if (numero1 === 0) {
+    document.write("Ingresaste 0");
+  } else if (numero1 > 0) {
+    document.write("Positivo");
+  } else if (numero1 < 0) {
+    document.write("Negativo");
+  } else {
+    document.write("No valido");
+  } */
+
+/* Hacer un programa que reciba del usuario dos numeros y muestre cual es
+el numero mayor y cual es el numero menor */
+
+const num1 = prompt("Ingrese el primero numero");
+const num2 = prompt("Ingrese el segundo numero");
+  if(num1 > num2){
+   document.write(num1 + ' ' + "es mayor a" + ' ' + num2);
+  }if (num1 < num2){
+   document.write(num1 + ' '+ "es menor a" + ' ' + num2);
+  }

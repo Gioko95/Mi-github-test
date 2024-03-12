@@ -84,11 +84,11 @@ console.log(null);
 
 /* const perfil ="Eres un estudiante"
 
-switch (perfil){
-  case "estudiante"
+/* switch (perfil){
+  case "estudiante":
     console.log ("eres")
-    break
-} */
+    break;
+}*/
 
 
 
