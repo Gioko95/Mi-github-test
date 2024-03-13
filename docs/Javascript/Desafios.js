@@ -47,10 +47,16 @@
 /* Hacer un programa que reciba del usuario dos numeros y muestre cual es
 el numero mayor y cual es el numero menor */
 
-const num1 = prompt("Ingrese el primero numero");
+/* const num1 = prompt("Ingrese el primero numero");
 const num2 = prompt("Ingrese el segundo numero");
   if(num1 > num2){
    document.write(num1 + ' ' + "es mayor a" + ' ' + num2);
   }if (num1 < num2){
    document.write(num1 + ' '+ "es menor a" + ' ' + num2);
-  }
+  } */
+
+const (typeof) = prompt("ingrese su primer nombre");
+const nombre2 = prompt("ingrese su segundo nombre");
+const apellido1 = prompt("ingrese su primer apellido");
+const apellido2 = prompt("ingrese su segundo apellido");
+document.write(`Su nombre completo es ${nombre1} ${nombre2} ${apellido1} ${apellido2}`);
